@@ -102,8 +102,8 @@ x = np.arange(len(words))
 
 plt.rcParams['font.family'] = 'Malgun Gothic'
 
-plt.figure("YES24 베스트셀러 후기 유행어 10개")
-plt.suptitle('YES24 베스트셀러 후기 유행어 10개', fontsize=15)
+plt.figure("YES24 베스트셀러 후기 키워드 TOP 10")
+plt.suptitle('YES24 베스트셀러 후기 키워드 TOP 10', fontsize=15)
 plt.bar(x, values, color=colors)
 plt.xticks(x, words)
 
